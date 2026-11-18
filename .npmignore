@@ -1,0 +1,19 @@
+# Tests are not part of the installable bundle payload.
+test/
+
+# Credential and local-state guards, repeated so an `npm pack` run in a dirty
+# tree cannot ship a stray secret file.
+.env
+.env.*
+*.credentials.*
+secrets*
+*.pem
+*.key
+history.json
+*.log
+fixtures/live/
+*.capture.json
+
+.vscode/
+.idea/
+.DS_Store

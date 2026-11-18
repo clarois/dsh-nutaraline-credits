@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "Nutaraline credits",
+    "description": "Shows the Nutaraline gateway balance, today's remaining free tokens, per-model bonuses and lifetime usage in a Settings section.",
+    "detail": "docs/DETAIL.md"
+  },
+  "panel": {
+    "title": "Nutaraline credits",
+    "subtitle": "Live balance and usage for your gateway key."
+  },
+  "actions": {
+    "refresh": "Refresh",
+    "refreshing": "Refreshing…",
+    "lastUpdated": "Updated {time}"
+  },
+  "fields": {
+    "key": "API key",
+    "keyConfigured": "Stored as {name}",
+    "keyMissing": "No key stored under {name}",
+    "keySource": "source: {source}",
+    "endpoint": "Endpoint"
+  },
+  "balance": {
+    "heading": "Balance",
+    "available": "Available",
+    "reserved": "Reserved",
+    "account": "Account",
+    "plan": "Plan",
+    "status": "Status"
+  },
+  "usage": {
+    "heading": "Usage",
+    "requests": "Requests",
+    "totalTokens": "Total tokens",
+    "inputTokens": "Input tokens",
+    "outputTokens": "Output tokens"
+  },
+  "limits": {
+    "heading": "Today's limits",
+    "freeTokens": "Free tokens",
+    "freeReset": "Resets {time}",
+    "requestsPerHour": "Requests this hour",
+    "requestsPerDay": "Requests today",
+    "tokensToday": "Tokens today",
+    "rateLimit": "Rate limit",
+    "rateLimitValue": "{available} of {limit} available"
+  },
+  "quotas": {
+    "heading": "Model bonuses",
+    "none": "No model bonuses on this account.",
+    "remainingOf": "{remaining} of {limit} left"
+  },
+  "states": {
+    "loading": "Reading the gateway…",
+    "empty": "No data yet. Refresh to read the balance.",
+    "error": "Could not read the balance"
+  }
+}

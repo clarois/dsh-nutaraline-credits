@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build and coverage output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# ---------------------------------------------------------------- credentials
+# This repository is public. Anything that can hold a real key, a real account
+# name or a real balance snapshot must never be committed.
+.env
+.env.*
+!.env.example
+*.env
+credentials*
+*.credentials.*
+.credentials*
+secrets*
+*.secret
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+
+# Local runtime state written by the Host half
+.history/
+history.json
+*.log
+logs/
+
+# Captured gateway responses: a fixture taken from a live account carries the
+# account name and balance, so keep raw captures out of the tree.
+fixtures/live/
+*.capture.json
+
+# Editor and OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

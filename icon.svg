@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-label="Nutaraline credits">
+  <rect x="4" y="9" width="28" height="19" rx="3.5" fill="none" stroke="#247bbf" stroke-width="2.4"/>
+  <path d="M22 15.5h10v6h-10a3 3 0 0 1 0-6z" fill="#247bbf" fill-opacity="0.16"/>
+  <path d="M22 15.5h10v6h-10a3 3 0 0 1 0-6z" fill="none" stroke="#247bbf" stroke-width="2.4"/>
+  <circle cx="25.6" cy="18.5" r="1.7" fill="#247bbf"/>
+  <path d="M8.5 13.5h9" stroke="#247bbf" stroke-width="2.4" stroke-linecap="round" opacity="0.55"/>
+</svg>
